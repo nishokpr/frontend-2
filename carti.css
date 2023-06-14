@@ -1,0 +1,14 @@
+.product {
+    display: inline-table;
+    margin: 1px;
+    text-align: left;
+  }
+  
+  #cart {
+    
+  }
+  
+  #cart-items {
+    list-style-type: none;
+  }
+  

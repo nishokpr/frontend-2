@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://i.pinimg.com/originals/ec/1e/3e/ec1e3ec3f54443fd91328f8553c502cf.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.logout{
+    margin-bottom: 40px;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    color: #fff;
+    margin-top: 1px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 75%;
+    
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/42/41/red-dictionary-book-vector-3164241.jpg");
+
+}
+.card2{
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/64/61/science-cover-book-design-with-laboratory-vector-31136461.jpg");
+}
+.card3{
+    background-image: url("https://cdn2.penguin.com.au/covers/400/9780241289334.jpg");
+}
+.card4{
+    background-image: url("https://5.imimg.com/data5/NA/TW/LA/SELLER-7302962/hp-500x500.png");
+}
+.card5{
+    background-image: url("https://images-platform.99static.com//e6_0y2vIpTnTFChj_Mqd-UYLy2U=/251x112:1136x998/fit-in/500x500/projects-files/67/6775/677558/2960c98f-1049-40d8-a00d-74d81dc03909.jpg");
+}
+.card:hover{
+    transform: translate(-10px);
+}
+h5{
+    color: #fff;
+    background-color: burlywood;
+    border-radius: 20px;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+h3{
+    width:300px;
+    height:50px;
+    color:#fff;
+    align-content: center;
+    text-align: center;
+}
+.option{
+    font-size: 25px;
+    border-width: 2px;
+    padding: 5px;
+    width:300px;
+    height:50px;
+    color:hsl(0, 87%, 48%);
+    border:1px solid beige;
+    box-sizing: border-box;
+    border-radius: 20px;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: antiquewhite;
+    background-color: rgb(252, 159, 19);
+    
+}
+a:link{
+    color:aliceblue;
+    text-decoration: none;
+}
+.navbar {
+    background-color: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .search-container {
+    margin-top: 50px;
+    float: right;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  }
+  
+  .search-container input[type="text"] {
+    padding: 6px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 6px;
+    border: none;
+  }
+  
+  .search-container button {
+    margin-top: 60px;
+    margin-left: 20px;
+    background: #ccc;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    padding: 6px 10px;
+     background: #ccc;
+  }
+  
+  .search-container button:hover {
+    background: #ddd;
+  }
